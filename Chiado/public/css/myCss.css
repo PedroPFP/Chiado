@@ -1,0 +1,248 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.black-fog{
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    opacity: 50%;
+}
+@font-face{
+    font-family: Cooper Hewit;
+    src: url('../Cooper/CooperHewitt-Light.otf');
+}
+@font-face{
+    font-family: Cooper Hewit Italic;
+    src: url('../Cooper/CooperHewitt-ThinItalic.otf');
+}
+@font-face{
+    font-family: Cooper Hewit Medium;
+    src: url("../Cooper/CooperHewitt-MediumItalic.otf");
+}
+@font-face{
+    font-family: Dancing Script;
+    src: url("../titulo/DancingScript-Regular.otf");
+}
+@font-face{
+    font-family: Dancing Script Medium;
+    src: url("../titulo/DancingScript-Medium.ttf") format("TrueType");
+}
+@media only screen and (max-width: 576px) {
+
+    .resizeTitle{
+      font-size: 18pt;
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .resizeList{
+      font-size: 10pt;      
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+    .replaceTitle{
+      top:25vh !important; 
+      
+    }
+  }
+  @media only screen and (max-width: 576px) {
+    .replaceTitle{
+      top:24vh !important; 
+      
+    }
+  }
+  @media only screen and (max-width: 576px){
+    .subtitle{
+font-size: 16pt !important;
+    }
+  }
+  
+  .img-init{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/SobreNos.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),url("../img/SobreNos.jpeg"));
+    height: 100vh; 
+    width: 100vh;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+body{
+    font-family: Cooper Hewit;
+}
+.CHI{
+    font-family: Cooper Hewit Italic;
+
+}
+.CHM{
+    font-family: Cooper Hewit Medium;
+}
+.Titulos{
+    font-family: Dancing Script ;
+}
+.Titulos-Nav{
+    font-family: Dancing Script Medium;
+
+}
+.color-red{
+    color: #ac1414;
+}
+.color-nav{
+    background-color: #9a1212;
+}
+.absolute-capition{
+    position: absolute;
+    top: 30vh;
+}
+.nav-tabs .nav-link{
+    color: black;
+}
+.nav-tabs .nav-link.active{
+    color: white;
+    background-color: #9a1212;
+    width: 100%;
+    text-align: center;
+}
+.text-down{
+position: absolute;
+top: 65vh;   
+}
+.grand-font{
+    font-size: 56pt;
+}
+.high-mid-font{
+    font-size: 36pt;
+}
+.mid-font{
+    font-size: 24pt;
+}
+.blur-1{
+    filter: blur(2px);
+}
+.fixed-top.scrolled {
+    
+    background-color: #9a1212
+     !important;
+    transition: background-color 200ms linear;
+}
+.fixed-top.scrolledBack {
+    
+    background-color: transparent
+     !important;
+    transition: background-color 200ms linear;
+}
+/* .adjustLi.scrolled {
+    
+    color: white
+     !important;
+    transition: color 200ms linear;
+} */
+.borda-titulo{
+    border-top: 3px white double;
+    border-bottom: 3px white double;
+}
+.bottom-navbar{
+    transition: .3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.bottom-navbar:hover{
+    border-bottom: 2px solid white;
+
+}
+.btn-red{
+    background-color: #ac1414;
+    color: white;
+}
+.btn-red:hover{
+    transition: 200ms;
+    background-color: #860f0f;
+    
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-bottom: -25%;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:50%;
+    width:100%;
+    position:absolute;
+}
+.onlyBotBorder{
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    border-bottom: 1px black solid;
+}
+.bg-imageTemp{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../img/Nav-img.jpeg");
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),url("../img/Nav-img.jpeg"));
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foot-border{
+    border-right: white solid 1px;
+}
+.foot-border-left{
+    border-left: white solid 1px;
+}
+.foot-border-bottom{
+    border-bottom: white solid 1px;
+}
+.noBorder{
+    border: none;
+}
+.btn-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    outline: 1px dotted blue;
+}
+.btn-img .img-wrap {
+    margin: 10px;
+}
+
+.btn-img img {
+    display: block;
+}
+
+.btn-img:hover .img-wrap {
+    background-color: black;
+}
+
+.btn-img:hover img {
+    opacity: 0.8;
+}
+.color-black{
+    background-color: black;
+}
+a{
+    color:black;
+}
+

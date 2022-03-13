@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/myCss.css">
+    <title>Chiado</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-transparent">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link resizeList Titulos" href="#Nossos-pratos"><h4>Nossos pratos</h4></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link resizeList Titulos" href="#Sobre"><h4>Sobre nós</h4></a>
+                </li>
+            </ul>
+        </div>
+        <div class="order-0 align-middle ">
+            <a class="navbar-brand mx-auto align-middle CHM " href="#">
+                <h3 class="align-middle resizeTitle Titulos">Restaurante Chiado</h3>
+            </a>
+
+        </div>
+        <button class=" navbar-toggler border-0" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/restaurantechiado/"><img src="public/img/insta.png" alt=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/Restaurante-Chiado-2837148470651"><img src="public/img/facebook.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fim Navbar -->
+
+    <!--  carousel  -->
+    <div class="img-init w-100">
+        <div class="carousel-caption replaceTitle absolute-capition ">
+            <h3 class="Titulos high-mid-font ">Bem vindo ao</h1>
+                <h1 class="grand-font Titulos-Nav border-bottom pb-2">Chiado</h1>
+                <p class=" mt-3 pt-2 mid-font text-center subtitle">Sua comida favoria você só encontra aqui!</p>
+        </div>
+    </div>
+
+    <!-- body -->
+    <div class="container-fluid my-3">
+
+        <div class="card border-0">
+
+            <div class="d-flex justify-content-center container col-6 col-sm-6 col-md-6 col-lg-6">
+                <img src="public/img/Logo.png" class="col-12 col-sm-12 col-md-3 col-lg-3 img-responsive" alt="">
+            </div>
+            <p class="d-flex justify-content-center">Desde 1995</p>
+        </div>
+
+        <!-- Oque fazemos? -->
+        <div class="row container-fluid my-2 d-flex justify-content-center my-5 mr-0 ml-0 ">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <h1 class="Titulos  text-center">Oque preparamos?</h1>
+            <p class="text-left">Nós preparamos diversos lanches e pratos quentes, devido a pandemia nosso foco está em criar lanches saborosos comm perfeição</p>
+            </div>
+            
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                <img class="img-fluid rounded" src="./public/img/Burguer.jpeg" alt="">
+            </div>
+        </div>
+
+
+        <!-- Sobre nós -->
+
+    </div>
+    <div class="bg-imageTemp bg-blackFog my-5">
+        <div class="col-12 col-sm 10 col-md-12 col-lg-12 container-fluid my-3 d-flex justify-content-center" id="Sobre">
+            <div class="col-9 col-sm-9 col-md-4 col-lg-4 m-5">
+                    <h1 class="text-center Titulos text-white foot-border-bottom">Sobre nós</h1>
+                    <p class="py-2 text-left text-white">Fundado em 1995, localizado na Avenida Jabaquara, sendo ponto mais que
+                        tradicional da região da Saúde. Conhecido pela excelência em atendimento e principalmente pela
+                        comida saborosa e inconfundível, faz o melhor em alimentação já a 25 anos . Agora a qualidade
+                        tradicional do Chiado também está disponível para entregas á domicílio através do IFood!!</p>
+            </div>
+        </div>
+    </div>
+            <!-- Fim Sobre nós -->
+            <!-- Preços -->
+
+    <h1 class="text-center mt-5 Titulos" id="Nossos-pratos">Nossos pratos</h1>
+    <div class="container py-3 mx-auto row d-flex justify-content-center">
+        <ul class="border-0 col-10 col-sm-10 col-md-10 col-lg-10 row nav nav-tabs d-flex justify-content-center p-0 " id="myTab" role="tablist">
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link active border-0 w-100 text-center" id="Beirute-tab" data-toggle="tab" href="#Beirute" role="tab"
+                    aria-controls="home" aria-selected="true">Beirute</a>
+            </li>
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link border-0 w-100 text-center" id="sanduiche-tab" data-toggle="tab" href="#sanduiche" role="tab"
+                    aria-controls="sanduiche" aria-selected="false">Sanduiche</a>
+            </li>
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link border-0 w-100 text-center" id="Hamburguers-tab" data-toggle="tab" href="#Hamburguers" role="tab"
+                    aria-controls="Hamburguers" aria-selected="false">Hamburguers</a>
+            </li>
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link border-0 w-100 text-center" id="pIndi-tab" data-toggle="tab" href="#pIndi" role="tab"
+                    aria-controls="pIndi" aria-selected="false">Pratos individuais</a>
+            </li>
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link border-0 w-100 text-center" id="Strogonoff-tab" data-toggle="tab" href="#Strogonoff" role="tab"
+                    aria-controls="Strogonoff" aria-selected="false">Strogonoff</a>
+            </li>
+            <li class="nav-item col-12 col-sm-12 col-md-2 col-lg-2 text-muted border w-100 d-flex justify-content-center p-0 border-0">
+                <a class="nav-link border-0 w-100 text-center" id="Outros-tab" data-toggle="tab" href="#Outros" role="tab"
+                    aria-controls="Outros" aria-selected="false">Outros</a>
+            </li>
+        </ul>
+        <div class="col-12 col-sm-12 col-md-10 col-lg-10 tab-content " id="Pratos">
+            <!-- Beirutes -->
+            <div class="tab-pane fade show active  " id="Beirute" role="tabpanel" aria-labelledby="Beirute-tab">
+                <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                    <ul class="pr-0 pl-0 m-0  list-group col-12 d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center">
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">                                    
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Beirute de contra filé</h6>
+                                            <p class="text-justify-center">Contra filé grelhado, queijo, presunto, ovo, maionese, alface e tomate no pão sírio.
+
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Beirute hamburguer</h6>
+                                            <p class="text-justify-center">Hambúrguer, maionese, queijo, presunto, alface e
+                                                tomate no pão sírio.</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Beirute de carne</h6>
+                                            <p class="text-justify-center">Carne de lagarto em finas fatias, queijo,
+                                                presunto, ovo, maionese, alface e tomate no pão sírio.
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Beirute americano</h6>
+                                            <p class="text-justify-center">Presunto, queijo, ovo, alface, tomate e maionese no pão sírio.
+                                            </p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Beirute de filé de frango</h6>
+                                            <p class="text-justify-center">Filé de frango, maionese, queijo, presunto, alface e tomate no pão sírio.
+                                            </p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                        </div>
+                </div>
+                </ul>
+            </div>
+            <!-- Fim Beirutes -->
+            <!-- Hamburguers -->
+            <div class="tab-pane fade  " id="Hamburguers" role="tabpanel" aria-labelledby="Hamburguers-tab">
+                <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                    <ul class="pr-0 pl-0 m-0 d-flex justify-content-center list-group col-12">
+                        <div class="row d-flex justify-content-center">
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburger maionese</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo e maionese
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburger salada</h3>
+                                            <p class="text-justify-center">Hamburger artesanal no pão de hamburger com alface, tomate e maionese artesanal.
+                                            </p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburger tudo</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo, presunto, ovo, bacon, alface, tomate e maionese
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburger vinagrete</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo e vinagrete</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburguer acebolado</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo e cebola</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburguer</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Burger bacon</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo e bacon</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburguer egg</h3>
+                                            <p class="text-justify-center">Pão, hambúrguer, queijo e ovo</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Especial cheese salada</h3>
+                                            <p class="text-justify-center">Cheese salada acompanhada de batata frita, refrigerante e ganhe uma sobremesa de pote</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Especial cheeseburger</h3>
+                                            <p class="text-justify-center">Cheeseburger acompanhado de batata frita, refrigerante e ganhe uma sobremesa de pote.</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Especial cheese maionese</h3>
+                                            <p class="text-justify-center">Cheese maionese acompanhado de batata frita, refrigerante e ganhe uma sobremesa de pote</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Cheeseburger calabresa maionese
+                                        </h3>
+                                            <p class="text-justify-center">Pão, hambúrguer de maionese, queijo e calabresa</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Sanduiche -->
+            <div class="tab-pane fade  " id="sanduiche" role="tabpanel" aria-labelledby="sanduiche-tab">
+                <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                    <ul class="pr-0 pl-0 m-0  list-group col-12 d-flex justify-content-center">
+                        <div class="row d-flex justify-content-center">
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/MistoQuente.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Misto Quente</h6>
+                                            <p class="text-justify-center">Pão francês com queijo e presunto feito na chapa.
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/Americano.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Americano</h6>
+                                            <p class="text-justify-center">Pão francês com presunto, queijo, ovo, alface, tomate e maionese.
+                                            </p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/Bauru.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Bauru</h6>
+                                            <p class="text-justify-center">Pão francês com queijo, presunto e tomate.
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/QueijoFrio.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Queijo Frio</h6>
+                                            <p class="text-justify-center">Queijo frio no pão francês.</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+                        </div>
+                </div>
+                </ul>
+            </div>
+            <!-- Fim sanduiche -->
+            <!-- Pratos individuais -->
+            <div class="tab-pane fade  " id="pIndi" role="tabpanel" aria-labelledby="pIndi-tab">
+                            <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                                <ul class="pr-0 pl-0 m-0 d-flex justify-content-center list-group col-12">
+                                    <div class="row d-flex justify-content-center">
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Contra filé grelhado</h6>
+                                                        <p class="text-justify-center">Contra filé grelhado acompanhado de arroz, feijão, farofa e salada de tomate com alface.            
+                                                        </p>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Contra filé à milanesa</h6>
+                                                        <p class="text-justify-center">Contra filé à milanesa acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+            
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Cupim ao molho</h6>
+                                                        <p class="text-justify-center">Cupim ao molho acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+            
+                                                        </p>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Filé de frango à milanesa</h6>
+                                                        <p class="text-justify-center">Filé de frango à milanesa acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Lagarto ao molho</h6>
+                                                        <p class="text-justify-center">Lagarto ao molho acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Linguiça toscana</h6>
+                                                        <p class="text-justify-center">Linguiça toscana acompanhada de arroz, feijão, farofa e salada de tomate com alface.
+
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Lombo grelhado suíno</h6>
+                                                        <p class="text-justify-center">Lombo suíno grelhado acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Peixe grelhado</h6>
+                                                        <p class="text-justify-center">Peixe grelhado acompanhado de arroz e legumes salteados
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Salmão grelhado</h6>
+                                                        <p class="text-justify-center">Salmão grelhado acompanhado de arroz e legumes salteados
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Filé de frango grelhado</h6>
+                                                        <p class="text-justify-center">Filé de frango grelhado acompanhado de arroz, feijão, farofa e salada de tomate com alface.
+                                                        </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+            </div>
+            <!-- Fim pratos individuais -->
+            <!-- Strogonoff -->
+            <div class="tab-pane fade  " id="Strogonoff" role="tabpanel" aria-labelledby="Strogonoff-tab">
+                <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                    <ul class="pr-0 pl-0 m-0 d-flex justify-content-center list-group col-12">
+                        <div class="row d-flex justify-content-center">
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Strogonoff de contra filé</h6>
+                                            <p class="text-justify-center">Stogonoff de contra filé acompanhado de arroz e batata palha
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Strogonoff de frango</h6>
+                                            <p class="text-justify-center">Strogonoff de frango acompanhado de arroz e batata palha</p>
+                                            
+                                    </div>
+
+                                </div>
+                            </li>
+
+                            <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                <div class="row d-flex justify-content-between align-items-center">
+                                    <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                        class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                        <h3 class="Titulos">Strogonoff de filé mignon</h6>
+                                            <p class="text-justify-center">Strogonoff de filé mignon acompanhado de arroz e batata palha
+
+                                            </p>
+                                            
+                                    </div>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- Fim Strogonoff -->
+            <!-- Outros -->
+            <div class="tab-pane fade  " id="Outros" role="tabpanel" aria-labelledby="Outros-tab">
+                            <div class="pr-0 pl-0 m-0 row py-1 col-12">
+                                <ul class="pr-0 pl-0 m-0 d-flex justify-content-center list-group col-12">
+                                    <div class="row d-flex justify-content-center">
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Pastel de feira
+                                                    </h3>
+                                                        <p class="text-justify-center">Pastel recheado à moda das feiras
+            
+                                                        </p>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Monte seu prato</h6>
+                                                        <p class="text-justify-center">Escolha 1 carne e mais 4 acompanhamentos, serve 2 pessoas.</p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+            
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteDeCarne.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Beirute de carne</h6>
+                                                        <p class="text-justify-center">Carne de lagarto em finas fatias, queijo,
+                                                            presunto, ovo, maionese, alface e tomate no pão sírio.
+            
+                                                        </p>
+                                                        
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">File mignon ao molho champignon</h6>
+                                                        <p class="text-justify-center">File mignon ao molho de champignon acompanhado de arroz à piamontese e batata frita.
+                                                            </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                                                                <li class=" list-group-item col-10 col-sm-10 col-md-6 col-lg-6 ">
+                                            <div class="row d-flex justify-content-between align-items-center">
+                                                <!-- <img src="public/img/BeiruteHamburguer.jpg"
+                                                    class="img-fluid rounded-circle col-12 col-sm-12 col-md-4 col-lg-4" alt=""> -->
+                                                <div class="col-12 col-sm-12 col-md-12 col-lg-12 align-items-center text-center">
+                                                    <h3 class="Titulos">Salada completa</h6>
+                                                        <p class="text-justify-center">Alface, tomate, cebola, palmito, azeitona, ovo, queijo e presunto.
+                                                            </p>
+                                                        
+                                                </div>
+            
+                                            </div>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+            </div>
+            <!-- Fim Outros -->
+
+        </div>
+    </div>
+
+<div class="row">
+    <div class="container col-10">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active pr-3">
+              <div class="row">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/Beirute1.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/Beirute2.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/Hamburguer1.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/Hamburguer2.jpeg" alt="First slide">
+              </div>                
+          </div>
+
+          <div class="carousel-item pr-3">
+            <div class="row">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/HamburguerB.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/HamburguerBatata.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/HamburguerBatata2.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/HamburguerO.jpeg" alt="First slide">
+              </div>        
+            </div>
+          <div class="carousel-item pr-3">
+            <div class="row">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/Sanduba.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/PratoDeComida.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/PratoDeComida2.jpeg" alt="First slide">
+                <img class="d-block w-100 col-lg-3 col-md-6 col-sm-12 pt-1" src="./public/img/PratoDeComida3.jpeg" alt="First slide">
+              </div>         
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          </a>
+      </div>
+</div>
+</div>
+    
+
+    <h1 class="text-center my-3 Titulos">Atendemos no</h1>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+            <div class="m-2 card border-0 col-10 col-sm-10 col-md-3 col-lg-3" style="width: 18rem;">
+                <a href="https://www.ifood.com.br/delivery/mirandopolis-sp/restaurante-chiado-mirandopolis/e2d79e27-e368-4679-9474-34f90f5ff208"><img class="card-img-top" src="public/img/ifood.jpg" alt="Card image cap"></a>
+              </div>
+              <div class="card border-0 m-2 col-10 col-sm-10 col-md-3 col-lg-3" style="width: 18rem;">
+                <a href=""><img class="card-img-top" src="public/img/James.png" alt="Card image cap"></a>
+              </div>
+              <div class="card border-0 m-2 col-10 col-sm-10 col-md-3 col-lg-3" style="width: 18rem;">
+                <a href=""><img class="card-img-top" src="public/img/Rappi.png" alt="Card image cap"></a>
+              </div>
+        </div>
+        
+    </div>
+            <!-- Fim preços -->
+        <!-- Local -->
+    <div class="container-fluid my-5">
+
+        <!-- Local -->
+        <div class="container my-1">
+            <div class="col-12 col-sm-12 ">
+                <h1 class=" text-center Titulos">Localização</h1>
+
+            </div>
+            <div class="d-flex justify-content-center">
+                <div class="map-responsive col-12 ">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.91968508336!2d-46.63899997081567!3d-23.615851870250996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a4e25a6f761%3A0x42a21af39775f3c1!2sAv.%20Jabaquara%2C%201317%20-%20Mirand%C3%B3polis%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004045-002!5e0!3m2!1spt-BR!2sbr!4v1594917827961!5m2!1spt-BR!2sbr"
+                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+
+            <!-- fim Local -->
+            <!-- Ifood -->
+
+        </div>
+    </div>
+    <!-- FIm local -->
+    <!-- footer -->
+    <div class="w-100 m-0 py-4 color-nav text-white">
+        <div class="container">
+            <div class="row">
+                <div class="color-nav col-6 col-sm-12 col-md-6 col-lg-6 ">
+                    <h4 class="text-center">Horario de funcionamento</h4>
+                    <ul class="list-group list-group-flush ">
+                        <li class="list-group-item color-nav noBorder text-center">Segunda-sabado-11:00-15:30</li>
+                    </ul>
+                </div>
+                <div class="color-nav col-6 col-sm-6 col-md-6 col-lg-6 ">
+                    <h4 class="text-center">Nossas redes sociais</h4>
+                    <ul class="list-group list-group-flush d-flex justify-content-center">
+                        <div class=" text-center">
+                            <li class="list-group-item color-nav noBorder col-12 m-0 p-0">
+                                <a class="nav-link text-white ">(11)5594-7676<img src="public/img/whatsapp_icon.png" class="pl-1" alt=""></a>
+                            </li>
+                            <li class="list-group-item color-nav noBorder col-12 m-0 p-0">
+                                <a class="nav-link text-white " href="https://www.facebook.com/Restaurante-Chiado-2837148470651">Facebook<img src="public/img/facebook.png" class="pl-1" alt=""></a>
+                            </li>
+                            <li class="list-group-item color-nav noBorder col-12 m-0 p-0">
+                                <a class="nav-link text-white " href="https://www.instagram.com/restaurantechiado/">Instagram<img src="public/img/insta.png" class="pl-1" alt=""></a>
+                            </li>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text-center">
+            <small>Copyright &copy; Restaurante Chiado</small>
+        </div>
+    </div>
+    <!-- fim footer -->
+    <!-- Fim body -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="public/js/myJs.js"></script>
+</body>
+
+</html>
